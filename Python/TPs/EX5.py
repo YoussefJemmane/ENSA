@@ -1,5 +1,5 @@
 num1 = int(input("Saisi numero 1"))
-num2 = int(input("Saisi numerp 2"))
+num2 = int(input("Saisi numero 2"))
 op = input("Saisi l'operateur")
 
 if op == "+":
