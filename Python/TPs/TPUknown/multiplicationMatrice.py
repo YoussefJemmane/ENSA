@@ -3,14 +3,15 @@ num2 = [[10,11,12],[13,14,15],[16,17,18]]
 num3 = []
 
 
-for i in num1:
-    print(i[0],num2[0])
-    num3.append([i[0],num2[0]])
-    
+for i in range(len(num1)):
+    temp = []
+    for j in range(len(num2[0])):
+        print(i,j)
+        temp.append(0)
+    num3.append(temp)
+
+    for j in range(len(num2)):
+        for k in range(len(num2[0])):
+            num3[i][j] += num1[i][k] * num2[k][j]
+
 print(num3)
-print(num3[0][1])
-
-for j in num3[0]:
-    print(j[0])
-
-
