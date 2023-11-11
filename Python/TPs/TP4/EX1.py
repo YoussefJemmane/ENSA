@@ -72,12 +72,12 @@ for filmograph in filmographie:
     cursor.execute(""" INSERT INTO Filmographie (fk_film,fk_acteur) VALUES (?,?)""",filmograph)
 
 cursor.execute(""" SELECT Film.titre,Acteurs.nom,Acteurs.prenom FROM Film,Acteurs JOIN Filmographie ON Film.idFilm = Filmographie.fk_film AND Acteurs.idActeur = Filmographie.fk_acteur """)
-
+# ⇑ same as ⇓
 cursor.execute(""" SELECT titre, nom , prenom FROM Filmographie JOIN FILM,Acteurs ON Film.idFilm = Filmographie.fk_film AND Acteurs.idActeur = Filmographie.fk_acteur""")
 
 filmss = cursor.fetchall()
 for film in filmss:
-    print("Le film : " + film[0] + "est contient l'acteur : " + film[1] + " " + film[2])
+    print("Le film : " + film[0] + " met en scène l'acteur : " + film[2] + " " + film[1])
 
 cursor.close()
 connection.commit()
