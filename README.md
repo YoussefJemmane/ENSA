@@ -4,7 +4,7 @@ Welcome to my repository for my Bachelor's degree in Software Engineering at ENS
 
 ## Overview
 
-This repository is dedicated to documenting my academic journey and coursework during my Bachelor's degree. As of now, I'm in Day 3 of my studies and have organized my coursework for Java and Python as follows:
+This repository is dedicated to documenting my academic journey and coursework during my Bachelor's degree. As of now, I'm in Day 5 of my studies and have organized my coursework for Java and Python as follows:
 
 ### Java
 
@@ -17,7 +17,7 @@ This repository is dedicated to documenting my academic journey and coursework d
 ### Python
 
 - **Cours**: Python course materials.
-- **TPs (Travaux Pratiques)**: Practical work for Python, including TP1, TP2, TP3, TP4, and TPUknown.
+- **TPs (Travaux Pratiques)**: Practical work for Python, including TP1, TP2, TP3, TP4, TP5, TP6 and TPUknown (Just brainstormed concepts and creative thoughts for Python-related tasks.).
 
 ## How to Use
 
